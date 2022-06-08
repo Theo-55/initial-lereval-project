@@ -20,7 +20,7 @@ Route::get('/', function () {
         'posts' => Post::all()
     ]);
 
-});//testing github setup with a comment
+});
 
 Route::get('posts/{post}', function ($slug) {
 
